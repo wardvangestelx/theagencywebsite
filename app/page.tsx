@@ -15,7 +15,7 @@ export default function Home() {
             {/* Left Navigation */}
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-black font-medium text-xs tracking-wider uppercase">home</Link>
-              <Link href="/over" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">over</Link>
+              <Link href="/over/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">over</Link>
             </div>
 
             {/* Center Logo */}
@@ -30,8 +30,8 @@ export default function Home() {
 
             {/* Right Navigation */}
             <div className="hidden md:flex space-x-8">
-              <Link href="/collecties" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
-              <Link href="/contact" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
+              <Link href="/collecties/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
+              <Link href="/contact/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
             </div>
 
             {/* Mobile menu button */}
@@ -50,9 +50,9 @@ export default function Home() {
             <div className="md:hidden py-4 border-t border-gray-200">
               <div className="flex flex-col space-y-3">
                 <Link href="/" className="text-black font-medium text-xs tracking-wider uppercase">home</Link>
-                <Link href="/over" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">over</Link>
-                <Link href="/collecties" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
-                <Link href="/contact" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
+                <Link href="/over/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">over</Link>
+                <Link href="/collecties/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
+                <Link href="/contact/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
               </div>
             </div>
           )}
@@ -76,13 +76,13 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link 
-                href="/over"
+                href="/over/"
                 className="bg-white text-black px-8 py-3 text-xs font-medium tracking-wider hover:bg-gray-100 transition-all duration-300 uppercase"
               >
                 ontdek meer
               </Link>
               <Link 
-                href="/contact"
+                href="/contact/"
                 className="border border-white text-white px-8 py-3 text-xs font-medium tracking-wider hover:bg-white hover:text-black transition-all duration-300 uppercase"
               >
                 contact
@@ -153,7 +153,7 @@ export default function Home() {
             voor een persoonlijke presentatie van onze collecties
           </p>
           <Link 
-            href="/contact"
+            href="/contact/"
             className="inline-block bg-black text-white px-8 py-3 text-xs font-medium tracking-wider hover:bg-gray-800 transition-all duration-300 uppercase"
           >
             plan een afspraak

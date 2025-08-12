@@ -15,7 +15,7 @@ export default function Over() {
             {/* Left Navigation */}
             <div className="hidden md:flex space-x-8">
               <Link href="/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">home</Link>
-              <Link href="/over" className="text-black font-medium text-xs tracking-wider uppercase">over</Link>
+              <Link href="/over/" className="text-black font-medium text-xs tracking-wider uppercase">over</Link>
             </div>
 
             {/* Center Logo */}
@@ -30,8 +30,8 @@ export default function Over() {
 
             {/* Right Navigation */}
             <div className="hidden md:flex space-x-8">
-              <Link href="/collecties" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
-              <Link href="/contact" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
+              <Link href="/collecties/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
+              <Link href="/contact/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
             </div>
 
             {/* Mobile menu button */}
@@ -50,9 +50,9 @@ export default function Over() {
             <div className="md:hidden py-4 border-t border-gray-200">
               <div className="flex flex-col space-y-3">
                 <Link href="/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">home</Link>
-                <Link href="/over" className="text-black font-medium text-xs tracking-wider uppercase">over</Link>
-                <Link href="/collecties" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
-                <Link href="/contact" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
+                <Link href="/over/" className="text-black font-medium text-xs tracking-wider uppercase">over</Link>
+                <Link href="/collecties/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">collecties</Link>
+                <Link href="/contact/" className="text-gray-500 hover:text-black transition-colors text-xs tracking-wider uppercase">contact</Link>
               </div>
             </div>
           )}
@@ -187,7 +187,7 @@ export default function Over() {
               </p>
               
               <Link 
-                href="/contact"
+                href="/contact/"
                 className="bg-black text-white px-8 py-3 text-xs font-medium tracking-wider hover:bg-gray-800 transition-all duration-300 uppercase"
               >
                 contact opnemen
